@@ -1,0 +1,115 @@
+.header {
+   position: relative;
+   margin-bottom: 44px;
+}
+/* .container{
+   max-width: 1120px;
+   padding: 0 10px;
+   margin: 0 auto;
+} */
+.header__menu-link {
+   font-family: 'Garamond';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 22px;
+   color: #161616;
+}
+.header__row{
+   padding-top: 24px;
+}
+.header__info{
+   font-family: 'Garamond';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   color: #B8926B;
+   line-height: 22px;
+}
+.header__info img{
+   margin-right: 16px;
+}
+.header__mobile {
+   /* display: none; */
+   top: -340%;
+   position: absolute;
+   background: #D8BFA9;
+   width: 100%;
+   height: 349px;
+}
+.header__mobile.active{
+   top: 0;
+}
+.header__mobile-row {
+   padding-top: 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+.header__mobile-close {
+   position: absolute;
+   top: 20px;
+   right: 0;
+}
+.header__mobile-logo {
+   margin-bottom: 32px;
+}
+.header__mobile-menu {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 48px;
+}
+.header__mobile-item:not(:last-child) {
+   margin-bottom: 16px;
+}
+.header__mobile-link {
+   font-family: 'Garamond';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   color: #F6F6F5;
+}
+.header__mobile-social {
+   width: 180px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.hero__title {
+   font-family: 'Garamond';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 50px;
+   /* font-size: 5em; */
+   color: #161616;
+   line-height: 66px;
+   margin-bottom: 32px;
+}
+.hero__text {
+   font-family: 'Lato',sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   color: #161616;
+   line-height: 34px;
+   margin-bottom: 64px;
+}
+.hero__btn {
+   width: 210px;
+   height: 59px;
+   background: #69766D;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Garamond';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   color: #F6F6F5;
+   line-height: 22px;
+}
